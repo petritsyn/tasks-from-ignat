@@ -3,7 +3,7 @@
     max-width: 350px;
     background-color: chartreuse;
     display: flex;
-    align-items: end;
+    align-items: flex-end;
     padding: 5px;
 }
 
@@ -21,6 +21,27 @@ img {
     padding: 5px;
 }
 
+.dialogBody {
+    width: 80%;
+    background-color: black;
+    position: relative;
+    border-radius: 10px 10px 10px 5px;
+    opacity: 0.7;
+    margin: 5px 5px 5px 30px;
+    padding: 5px;
+}
+.dialogBody:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 99%;
+    top: 90%;
+    border-top: 12px solid transparent;
+    border-right: 24px solid black;
+    border-bottom: 12px solid transparent;
+}
+
 .name {
     color: blueviolet;
     font-weight: bold;
@@ -35,4 +56,10 @@ img {
 
 .time {
     color: gray;
+}
+
+.ornament {
+    width: 20px;
+    height: 30px;
+    background-color: white;
 }
