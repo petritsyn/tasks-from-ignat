@@ -1,3 +1,28 @@
-.someClass {
+.affairs {
+    width: 350px;
+    padding: 5px;
+}
 
+.affair {
+    display: grid;
+    grid-template-columns: 4fr 4fr 1fr;
+    background-color: darkgrey;
+    margin-bottom: 2px;
+}
+
+.name {
+    color: blue;
+    margin-left: 5px;
+}
+
+.priority {
+
+}
+
+.affairs button {
+    width: 25%;
+}
+
+.affair button {
+    width: 100%;
 }
