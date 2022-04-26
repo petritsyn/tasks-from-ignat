@@ -1,5 +1,6 @@
 .affairs {
     width: 350px;
+    height: 150px;
     padding: 5px;
 }
 
@@ -15,14 +16,22 @@
     margin-left: 5px;
 }
 
-.priority {
-
-}
-
 .affairs button {
     width: 25%;
 }
 
 .affair button {
     width: 100%;
+}
+
+.high {
+    color: green;
+}
+
+.middle {
+    color: yellow;
+}
+
+.low {
+    color: red
 }
