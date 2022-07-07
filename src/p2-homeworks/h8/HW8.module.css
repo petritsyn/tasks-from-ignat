@@ -1,0 +1,20 @@
+.buttons {
+    display: flex;
+}
+
+.buttons button {
+    margin: 5px;
+}
+
+.finalPeople {
+    min-height: 150px;
+    width: 200px;
+    margin: 5px;
+}
+
+.peopleItem {
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    margin: 5px;
+}
